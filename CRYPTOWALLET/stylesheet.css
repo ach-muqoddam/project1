@@ -1,0 +1,129 @@
+*,
+html {
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(82.94deg, #f0f2fb 50.57%, #fefeff 77.18%);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 120px;
+  border-bottom: 1px solid #e1e3ef;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left .logo {
+  width: 40px;
+}
+
+.header-left .logo-text {
+  width: 163px;
+  padding-right: 33px;
+  padding-left: 4px;
+  border-right: 1px solid #e1e3ef;
+}
+
+.nav-list {
+  display: inline;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.nav-list a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.btn {
+  padding: 11px 32px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #004eff;
+  border: none;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 1px solid #e1e3ef;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 120px;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+}
+
+.hero-text pre {
+  font-size: 17px;
+  margin: 24px 0 48px;
+  color: #5b616e;
+}
+
+.hero-image {
+  width: 650px;
+  height: 600px;
+}
+
+.info {
+  padding: 12px 120px;
+}
+
+.info-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px 55px;
+  display: flex;
+  box-shadow: 8px 40px 40px rgba(63, 70, 77, 0.02);
+}
+
+.info-list {
+  flex: 1;
+}
+
+.info-list img {
+  margin-bottom: 24px;
+}
+
+.info-list p {
+  color: #0a0b0d7a;
+  font-size: 14px;
+}
+
+.info-list h4 {
+  margin: 4px;
+  font-size: 32px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.buy {
+  font-size: 16px;
+  color: #58bd7d;
+}
+
+.sell {
+  font-size: 16px;
+  color: #ea3943;
+}
